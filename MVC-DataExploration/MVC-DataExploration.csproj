@@ -136,6 +136,7 @@
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Customer\CustomerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\artists.xml" />
@@ -175,6 +176,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Customer\Create.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
