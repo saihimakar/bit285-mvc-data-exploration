@@ -9,7 +9,7 @@ namespace MVC_DataExploration.Views.Customer
     public class CustomerController : Controller
     {
         private MyDbContext db = new MyDbContext();
-        // GET: Customer
+        // GET: Customers
         public ActionResult Index()
         {
             return View();
