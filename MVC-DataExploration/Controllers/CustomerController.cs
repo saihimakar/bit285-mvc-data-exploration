@@ -11,7 +11,7 @@ namespace MVC_DataExploration.Controllers
     {
         private MyDbContext db = new MyDbContext();
 
-        // GET: Customer
+        // GET: Customers
         public ActionResult Index()
         {
             return View(db.Customers);
